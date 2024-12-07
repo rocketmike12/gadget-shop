@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .products-list {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            max-width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Список товарів</h1>
+        <div class="products-list"></div>
+        <div class="cart">
+            <p>Кількість товару: <span id="quantity">0</span></p>
+            <p>Сума: <span id="sum">0</span></p>
+        </div>
+    </div>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
